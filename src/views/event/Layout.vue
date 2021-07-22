@@ -34,6 +34,7 @@
             })
             .catch((error) =>{
                 console.log(error)
+                this.$router.push({name: '404Resource', params:{resource:'event'}})
             })
         }
     }
